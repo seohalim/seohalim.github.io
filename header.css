@@ -44,12 +44,21 @@ nav ul li{width: 8%;}
 	float: left;
 	width: 20%;
 }
+h1,h1 *{
+	margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
 .rightcol {
+	padding-top: 100px;
 	float: right;
 	width: 75%;
 }
-header img{
+#logo{
 	height:200px;
 	width:159px !important;
-};
+}
+#contacts{
+	padding-left: 20px;
+}
 
