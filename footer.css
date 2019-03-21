@@ -1,6 +1,21 @@
-footer {text-align: right; padding-right: 25px;clear: both;}
+
 #email {max-height: 25px; padding: 3px;}
 #behance {max-height: 25px; padding: 3px;}
 #facebook {max-height: 25px; padding: 3px;}
 #instagram {max-height: 25px; padding: 3px;}
 
+/* ===============================
+Mobile Styles: 0px to 480px
+===============================
+*/
+@media only screen and (max-width: 480px) {
+    footer {text-align: right; padding-right: 25px;clear: both;}
+}
+
+/* ================================
+Tablet & Desktop Styles: 481px and greater
+================================
+*/
+@media only screen and (min-width: 481px) {
+    footer{display: none;}
+}
